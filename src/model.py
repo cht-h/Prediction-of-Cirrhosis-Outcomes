@@ -25,8 +25,6 @@ train["Status"] = le.fit_transform(train["Status"])
 y = train["Status"]
 X = train.drop(columns=["Status"])
 
-
-
 #process categorical features
 cat_cols = X.select_dtypes(include=["string", "object"]).columns.tolist()
 num_cols = X.select_dtypes(include=["int64", "float64"]).columns.tolist()
@@ -77,7 +75,6 @@ params = {
     "random_state": 42,
     "verbose": -1
 }
-
 
 #train ensemble
 print("\n" + "="*60)
