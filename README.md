@@ -1,5 +1,5 @@
 # Cirrhosis Patient Survival Prediction
 
-**Student:** Chernikova Angelina
+**Students:** Chernikova Angelina & Agafonov Ruslan
 
 **Group:** 972401
