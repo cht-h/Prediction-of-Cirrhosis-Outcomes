@@ -13,6 +13,7 @@ test = pd.read_csv("test.csv")
 print("Train shape:", train.shape)
 print("Test shape:", test.shape)
 
+#data preprocessing
 #save test ids
 test_ids = test["id"].copy()
 train.drop(columns=["id"], inplace=True)
